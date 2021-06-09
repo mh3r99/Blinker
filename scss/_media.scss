@@ -1,0 +1,544 @@
+@media (max-width: 1650px) {
+  body {
+    background-position: 50% 200%;
+    background-size: 150% 101%;
+  }
+  .header {
+    &-box {
+      &-social {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  body {
+    background: url(../img/bg.svg) no-repeat;
+    background-position-x: 50%;
+    background-position-y: 5%;
+    background-size: 148% 97%;
+    background-color: #000;
+  }
+  .header {
+    &-box-nav {
+      nav {
+        ul {
+          li {
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1147px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1147px) {
+  body {
+    background: url(../img/bg.svg) no-repeat;
+    background-position: 50% 180%;
+    background-color: #000;
+  }
+  section {
+    padding: 0 20px;
+  }
+  .header {
+    &-inner {
+      padding: 15px 20px;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-color: #000;
+      z-index: 99999;
+    }
+
+    &-box-nav {
+      .nav-dest {
+        display: none;
+      }
+      .btn-dest {
+        margin-right: 156px;
+      }
+    }
+  }
+  .header-section {
+    h1 {
+      font-size: 64px;
+    }
+    p {
+      font-size: 32px;
+    }
+  }
+  .slider {
+    padding: 12px 0;
+    .slide {
+      padding: 0 12px;
+      img {
+        height: 42px;
+      }
+    }
+  }
+  .about {
+    padding-top: 256px;
+    &-text {
+      width: 50%;
+      h3 {
+        font-size: 19px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+  .mechanisms {
+    padding-top: 256px;
+    &-item {
+      width: 45%;
+    }
+  }
+  .tokenomics {
+    &-item {
+      width: 544px;
+      height: 544px;
+      &-text {
+        max-width: 448px;
+        width: 100%;
+      }
+    }
+    .border-1 {
+      position: relative;
+      right: -88px;
+    }
+    .border-2,
+    .border-3 {
+      position: relative;
+      right: -20px;
+    }
+  }
+  .roadmap {
+    &-item {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .tokenomics {
+    &-items {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 0;
+    }
+
+    .border-1 {
+      right: 0;
+    }
+    .border-2,
+    .border-3 {
+      right: 0;
+    }
+    .border-2 {
+      left: 60px;
+    }
+  }
+}
+@media (max-width: 912px) {
+  .team {
+    display: none;
+  }
+}
+@media (min-width: 912px) {
+  .team-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background: url(../img/bg-pl.svg) no-repeat;
+    background-position: 50% 180%;
+    background-color: #000;
+    background-size: cover;
+  }
+  .header {
+    nav {
+      ul {
+        li {
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 32px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+  .about {
+    padding-top: 169px;
+  }
+  .mechanisms {
+    h2 {
+      font-size: 40px;
+    }
+    &-item {
+      width: 80%;
+    }
+  }
+  .tokenomics {
+    padding-top: 179px;
+    h2 {
+      font-size: 40px;
+    }
+  }
+  .roadmap {
+    &-item {
+      display: flex;
+      width: 100%;
+      &-box {
+        margin-left: 40px;
+      }
+      h3 {
+        margin-top: 0;
+      }
+      &-num {
+        h4 {
+          font-size: 19px;
+        }
+        &::after {
+          top: 0;
+          left: 50%;
+          z-index: -1;
+          transform: translateY(0) translateX(-50%);
+          width: 3px;
+          height: 100%;
+          background-color: #fff;
+        }
+      }
+    }
+    &-item:last-child {
+      .roadmap-item-box {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .blinker {
+    padding: 256px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    h2 {
+      font-size: 40px;
+      white-space: nowrap;
+    }
+    .btn {
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+  }
+
+  .team-2 {
+    h2 {
+      font-size: 40px;
+    }
+  }
+  .footer {
+    h2 {
+      font-size: 40px;
+    }
+    &-social {
+      margin-top: 20px;
+      a {
+        img {
+          width: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  section {
+    padding: 0 10px;
+  }
+  .header-inner {
+    padding: 15px 10px;
+  }
+  .burger-menu_button {
+    right: 10px;
+  }
+  .about {
+    &-inner {
+      flex-direction: column-reverse;
+    }
+
+    &-img {
+      width: 100%;
+      margin-top: 20px;
+    }
+    &-text {
+      width: 100%;
+      margin-left: 0;
+      p {
+        max-width: none;
+        width: 100%;
+      }
+    }
+  }
+  .tokenomics {
+    &-items {
+      align-items: center;
+    }
+    &-item {
+      width: 400px;
+      height: 400px;
+      h3 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 12px;
+      }
+      &-text {
+        max-width: 303px;
+      }
+    }
+    .border-1,
+    .border-2,
+    .border-3 {
+      margin-bottom: 0;
+    }
+    .border-2 {
+      top: -56px;
+      left: 0;
+    }
+    .border-3 {
+      top: -100px;
+    }
+  }
+  .team-2 {
+    .team-item-2 {
+      img {
+        width: 152px;
+        height: 152px;
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  body {
+    background: url(../img/bg-mob.svg) no-repeat;
+    background-color: #000;
+    background-position: center center;
+    background-size: 123%;
+  }
+  section {
+    padding: 0 8px;
+  }
+  .burger-menu_link {
+    padding: 8px 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+  }
+  .burger-menu {
+    .div {
+      a {
+        img {
+          margin: 0 8px;
+          margin-top: 30px;
+          width: 26px;
+          height: 26px;
+        }
+      }
+    }
+  }
+  .burger-menu_button {
+    right: 8px;
+    width: 40px;
+    height: 28px;
+  }
+
+  .burger-menu_lines::before,
+  .burger-menu_lines::after,
+  .burger-menu_lines {
+    width: 40px;
+    height: 4px;
+  }
+  .burger-menu_lines::before {
+    top: -8px;
+  }
+  .burger-menu_lines::after {
+    top: 8px;
+  }
+  body {
+    width: 100%;
+  }
+  .header-logo-box {
+    img {
+      width: 50%;
+    }
+  }
+  .header {
+    &-inner {
+      padding: 5px 15px;
+      height: 60px;
+    }
+    .btn-dest {
+      display: none;
+    }
+  }
+  .header {
+    nav {
+      ul {
+        li {
+          a {
+            font-size: 22px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+  .header-section {
+    h1 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 25px;
+    }
+    &-btn {
+      width: 60%;
+      font-size: 19px;
+      margin-bottom: 56px;
+    }
+  }
+  .about {
+    padding-top: 200px;
+    &-text {
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+  .mechanisms {
+    padding-top: 200px;
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+    &-item {
+      width: 100%;
+    }
+  }
+  .tokenomics {
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .roadmap {
+    h2 {
+      font-size: 24px;
+    }
+    &-item {
+      h3 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+  .blinker {
+    padding: 159px 0;
+    h2 {
+      font-size: 24px;
+    }
+    .btn {
+      width: 288px;
+      font-size: 19px;
+    }
+  }
+  .team-2 {
+    h2 {
+      font-size: 24px;
+    }
+    .team-item-2 {
+      margin-bottom: 50px;
+      width: 80%;
+      img {
+        width: 152px;
+        height: 152px;
+      }
+      p {
+        font-size: 13px;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 24px 0;
+      }
+    }
+  }
+  .footer {
+    padding-top: 0px;
+    padding-bottom: 70px;
+    width: 99%;
+    h2 {
+      font-size: 24px;
+    }
+    &-social {
+      a {
+        img {
+          margin: 16px;
+        }
+      }
+    }
+  }
+  .slider {
+    padding: 10px 0;
+    margin-top: 0;
+    .slide {
+      padding: 0 9px;
+      img {
+        height: 38px;
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  body {
+    background-size: 142%;
+  }
+}
+@media (max-width: 350px) {
+  body {
+    background-size: 155%;
+  }
+}
+@media (max-width: 330px) {
+  body {
+    background-size: 170%;
+  }
+}
